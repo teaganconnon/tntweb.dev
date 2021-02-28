@@ -1,11 +1,13 @@
 import React from 'react'
-import HomePage from '../HomePage'
+import Header from '../Header'
 const Teagan = () => {
     return (
+        <>
+            <Header />
         <div>
             Hello Teagan
-            <HomePage />
         </div>
+        </>
     )
 }
 

@@ -8,12 +8,12 @@ import AboutUs from '../Pages/AboutUs'
 import Projects from '../Pages/Projects'
 import Contact from '../Pages/Contact'
 import HomePage from '../Pages/HomePage'
-import Header from '../Components/Header'
+import Header from './Header'
 import useStyles from './styles'
 
 const RouterScreen = () => {
     const classes = useStyles();
-    
+
     return (
         <Router>
             <Header />

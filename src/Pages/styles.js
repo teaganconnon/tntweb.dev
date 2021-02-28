@@ -7,11 +7,13 @@ export default makeStyles((theme) => ({
     },
     
     headerDiv: {
-        padding: "20px 0",
+        margin: "20px",
         height: "50px",
         display: "flex",
         alignItems: "center",
-        justifyContent: "center"
+        justifyContent: "center",
+        border: "1px solid #fff",
+        borderRadius: "10px",
     },
 
     link: {

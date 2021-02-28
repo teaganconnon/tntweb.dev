@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../Header'
 import useStyles from './styles'
 
 const HomePage = () => {
@@ -7,10 +6,9 @@ const HomePage = () => {
 
     return (
         <>
-        <Header />
-            <div className={classes.homeBodyDiv}>
-                Hello HomePage
-            </div>
+        <div className={classes.homePageDiv}>
+            Hello HomePage
+        </div>
         </>
 
     )

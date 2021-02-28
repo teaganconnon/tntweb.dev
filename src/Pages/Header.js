@@ -4,17 +4,16 @@ import useStyles from './styles'
 
 const Header = () => {
     const classes = useStyles();
+    const linkData = [{ color: "#d5a6bd", name: "home" }, { color: "#a4c2f4", name:"teagan" }, { color: "#ffe599", name: "tyler" }]
     return (
         <div className={classes.headerDiv}>
-            <div className={classes.routingLink}>
-                <Link to="/">Home</Link>
-            </div>
-            <div className={classes.routingLink}>
-                <Link to="/teagan">Teagan</Link>
-            </div>
-            <div className={classes.routingLink}>
-                <Link to="/tyler">Tyler</Link>
-            </div>
+            {linkData.map((data) => {
+                return (
+                    <div className={classes.routingLink}>
+                        <Link className={classes.link} style={{ color: data.color}} to={data.name==="home" ? "/" : `/${data.name}`}>[{data.name}]</Link>
+                    </div>
+                )
+            })}
         </div>
     )
 }

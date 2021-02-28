@@ -1,13 +1,15 @@
 import React from 'react'
-import HomePage from '../HomePage'
+import Header from '../Header'
+
 
 const Tyler = () => {
     return (
-        <div>
-            Hello TYLER
-            <HomePage />
+        <>
+            <Header />
+            <div>
+                Hello TYLER
         </div>
-        
+        </>
     )
 }
 

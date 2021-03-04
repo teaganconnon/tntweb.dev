@@ -2,7 +2,8 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles((theme) => ({
     sectionDiv: {
-        overflow: "hidden !important"
+        overflow: "hidden !important",
+        margin: "0 !important"
     },
 
     panel: {

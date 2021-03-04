@@ -18,12 +18,8 @@ const Parallax = () => {
   }
 
   if (size.width < 600) {
-    Object.keys(bodyShift).map(function (key, index) {
-      bodyShift[key] *= (1/2);
-    });
-    Object.keys(faceShift).map(function (key, index) {
-      faceShift[key] *= (1/2);
-    });
+    Object.keys(bodyShift).map((key, index) => (bodyShift[key] *= (1/2)));
+    Object.keys(faceShift).map((key, index) => (faceShift[key] *= (1/2)));
   }
 
 

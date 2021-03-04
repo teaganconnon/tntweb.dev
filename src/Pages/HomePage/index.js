@@ -6,9 +6,9 @@ const HomePage = () => {
     const classes = useStyles();
 
     return (
-        <>
+        <div className={classes.content}>
         <SectionWipes />
-        </>
+        </div>
 
     )
 }

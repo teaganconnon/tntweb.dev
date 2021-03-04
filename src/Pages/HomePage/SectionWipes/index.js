@@ -17,7 +17,7 @@ const SectionWipes = () => {
           </div>
         </Scene>
         <Scene pin>
-          <div className={classes.panel} style={{ backgroundColor: "#22d659", marginBottom: "1000px" }}>
+          <div className={classes.panel} style={{ backgroundColor: "#22d659"}}>
             <span>Panel</span>
           </div>
         </Scene>

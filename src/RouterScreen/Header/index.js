@@ -13,9 +13,9 @@ const Header = () => {
                 </Link>
             </div>
             <div className={classes.routingDiv}>
-            {linkData.map((data) => {
+            {linkData.map((data, idx) => {
                 return (
-                    <div className={classes.routingLink}>
+                    <div className={classes.routingLink} key={idx}>
                         <Link className={classes.link} style={{ color: data.color}} to={data.name==="about us" ? "/about-us" : `/${data.name}`}>[{data.name}]</Link>
                     </div>
                 )

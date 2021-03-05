@@ -2,14 +2,10 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles((theme) => ({
 
-    routingLink: {
-        fontSize: "18px"
-    },
-
     routingDiv: {
         display: 'flex',
         justifyContent: 'space-between',
-        width: "50%",
+        width: "40%",
         margin: "0 20px",
         [theme.breakpoints.down('xs')]: {
             width: "90%",
@@ -43,6 +39,12 @@ export default makeStyles((theme) => ({
 
     link: {
         textDecoration: "none",
+        opacity: "0.6",
+        fontSize: "18px"
     },
+
+    active: {
+        opacity: "1"
+    }
 
 }));

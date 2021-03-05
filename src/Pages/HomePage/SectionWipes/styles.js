@@ -8,7 +8,7 @@ export default makeStyles((theme) => ({
 
     panel: {
         height: "100vh",
-        width: "100vw",
+        width: "100%",
         maxWidth: "100%",
         textAlign: "center",
 

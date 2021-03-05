@@ -2,11 +2,12 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles((theme) => ({
     
-    content: {
-        minHeight: "90vh",
+    parallax: {
+        height: "80vh",
         width: "100%",
+        display: "flex",
         [theme.breakpoints.down('xs')]: {
-            minHeight: "50vh",
+            height: "50vh",
         }
     }
 

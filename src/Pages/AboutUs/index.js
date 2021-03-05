@@ -6,10 +6,12 @@ const AboutUs = () => {
     const classes = useStyles();
 
     return (
-        <div className={classes.content}>
-            <Parallax />
-        </div>
+        <>
+            <div className={classes.parallax}>
+                <Parallax />
+            </div>
+        </>
     )
 }
 
-export default AboutUs
+export default AboutUs;
